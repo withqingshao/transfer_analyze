@@ -16,10 +16,10 @@ def readData():
         res=pandas.read_json(url)
     if type=="csv":
         res=pandas.read_csv(url)
-    result=res.to_json(orient='records')
+    result=res.to_json(orient='table')
     product_dic = json.loads(result)
     print(product_dic)
-    print(product_dic["data"])
+    #print(product_dic["data"])
     return result
 
 if __name__ == '__main__':
