@@ -1,0 +1,12 @@
+{
+  "dbOptions": [{
+    "value": "1",
+    "label": "mysql"
+  }, {
+    "value": "2",
+    "label": "oracle"
+  }, {
+    "value": "3",
+    "label": "postpresql"
+  }]
+}
